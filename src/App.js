@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faUser } from "@fortawesome/free-solid-svg-icons";
+// import { faImage } from "@fortawesome/free-solid-svg-icons";
+// import Header from "./components/header/Header";
+// import PromotionalSlider from "./components/promotionalSlider/PromotionalSlider";
+// import ShowcaseBar from "./components/showcaseBar/ShocaseBar";
+// import Beauty from "./components/beauty/Beauty";
+// import Electronics from "./components/electronics/Electronics";
+// import Newyear from "./components/newyearSpecial/Newyear";
+// import Winter from "./components/winterEssential/Winter";
+import Home from "./pages/home/Home"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <FontAwesomeIcon icon={faUser} /> */}
+      {/* <FontAwesomeIcon icon={faImage} /> */}
+      {/* <Header />
+      <ShowcaseBar />
+      <PromotionalSlider />
+      <Beauty />
+      <Electronics /> */}
+      <Home />
+      {/* <Newyear /> */}
+      {/* <Winter /> */}
     </div>
   );
 }

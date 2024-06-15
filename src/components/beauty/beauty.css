@@ -1,0 +1,22 @@
+.Beauty {
+  margin-top: 10px;
+  display: flex;
+  height: 361px;
+  width: 100%;
+}
+.beautyOne {
+  width: 230px;
+  border: 1px solid black;
+  margin-left: 5px;
+}
+.beautyProducts {
+  display: flex;
+  height: 361px;
+  margin-left: 5px;
+}
+.one {
+  margin-left: 5px;
+  border: 1px solid red;
+  height: 361px;
+  width: 230px;
+}

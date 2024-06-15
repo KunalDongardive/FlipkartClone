@@ -1,0 +1,25 @@
+.ShowcaseBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+  background-color: #fff;
+  padding: 10px 100px;
+  margin-top: 10px;
+}
+
+.ShowcaseBar .products p {
+  font-weight: bolder;
+}
+
+.ShowcaseBar .products .productsBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ShowcaseBar .products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
